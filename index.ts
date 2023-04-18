@@ -1,10 +1,12 @@
 import { question } from "readline-sync";
-import { countBooksOfPublisher } from "./count-books-of-publisher";
-import { getAvaeragePrice } from "./get-avaerage-price";
-import { findMaxPrice } from "./find-max-price";
-import { isValid } from "./is-valid";
-import { filterByPrice } from "./filter-by-price";
-import { searchByName } from "./search-by-name";
+import {
+  countBooksOfPublisher,
+  getAvaeragePrice,
+  findMaxPrice,
+  isValid,
+  filterByPrice,
+  searchByName
+} from "./module";
 
 const books = [
   {
